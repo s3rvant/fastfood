@@ -10,6 +10,12 @@ include $private.'bootstrap.php';
 // Output
 echo '
 <html>
+<head>
+<style>';
+include $public.'style.css';
+echo '
+</style>
+</head>
 <body>
 '.$text.'
 </body>
